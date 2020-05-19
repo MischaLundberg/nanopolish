@@ -49,6 +49,17 @@ In order to use the additional python3 scripts within `/scripts`, install the de
 pip install -r scripts/requirements.txt --user
 ```
 
+### Or create an environment
+In order to install the Python dependencies, it is recommended to use the [Anaconda](https://store.continuum.io/cshop/anaconda/) Python distribution and package manager. After installing Anaconda, run the following commands to create an environment with all dependencies:
+
+```
+conda env create --file environment.yml
+conda activate UMAP
+
+## to deactivate the environment, type
+#conda deactivate
+```
+
 
 ## Installation instructions
 
